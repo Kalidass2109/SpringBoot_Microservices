@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: 48_Cloud_Config_Server
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Kalidass2109/configuration_properties
+          clone-on-start: true
+
+server:
+  port: 7071
+  
